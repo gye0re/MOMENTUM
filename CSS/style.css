@@ -1,0 +1,108 @@
+
+body{
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   
+}
+
+.hidden{
+    display: none;
+}
+
+#clock{
+    font-size: 130px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position:relative;
+    z-index: 2;
+}
+
+
+#weather{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    align-items: flex-end;
+    position:relative;
+    z-index: 2;
+    color: white;
+    padding: 25px;
+}
+
+#quote{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    align-items: center;
+    position:relative;
+    z-index: 2;
+    margin-top: 50px;
+    color: white;
+    border: 2px solid white;
+    margin: 30px 300px;
+    padding: 10px 0px;
+    border-radius: 35px;
+}
+
+#login-form,#todo-form{
+    text-align: center;
+    position:relative;
+    z-index: 2;
+    background-color :none;
+    
+}
+
+#login-form input:first-child,#todo-form input{
+    outline: none;
+    width: 350px;
+    text-align: center;
+    height: 50px;
+    margin: 5px 0px;
+    border: none;
+    font-size: 20px;
+    position:relative;
+    z-index: 2;
+    border-bottom: 3px solid white;
+    background-color : rgba(256 ,256,256, 0.9);
+    border-radius: 175px;
+    color:black
+
+    }
+
+#login-form input:last-child{
+    display: none;
+}
+
+
+
+#bgimg{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    height: 100%;
+}
+
+#greeting,li{
+    z-index: 2;
+    position: relative;
+    font-size: 50px;
+    text-align: center;
+    list-style: none;
+}
+
+#greeting{
+    font-size: 100px;
+    color: white;
+}
+
+span{
+    color: white;
+}
+
+button{
+    font-size: 30px;
+    margin-left: 40px;
+    border: none;
+    outline: none;
+    
+}
